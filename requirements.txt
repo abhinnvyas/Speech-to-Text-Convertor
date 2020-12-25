@@ -1,0 +1,3 @@
+playsound
+speech_recognition
+tkinter
