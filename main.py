@@ -48,7 +48,7 @@ class speechToTextConvertor(object):
         comboBox.place(x=90,y=10)
         comboBox.current(0)
 
-        translate = tk.Button(self.root,bg="lightblue",text="Translate",width=20,relief=tk.RIDGE,command=speech_to_text)
+        translate = tk.Button(self.root,bg="lightblue",text="Listen",width=20,relief=tk.RIDGE,command=speech_to_text)
         translate.place(x=356,y=7)
         
         scrollbar = tk.Scrollbar(self.root)
